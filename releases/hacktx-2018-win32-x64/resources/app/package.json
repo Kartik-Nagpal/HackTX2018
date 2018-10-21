@@ -1,0 +1,30 @@
+{
+  "name": "hacktx-2018",
+  "version": "1.0.0",
+  "description": "https://electronjs.org/docs/tutorial/first-app",
+  "main": "main.js",
+  "dependencies": {
+    "zerorpc": "git+https://github.com/fyears/zerorpc-node.git"
+  },
+  "devDependencies": {
+    "electron": "^3.0.5",
+    "electron-packager": "^9.1.0",
+    "electron-rebuild": "^1.8.2"
+  },
+  "scripts": {
+    "start": "electron .",
+    "package-win": "electron-packager .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/killerdirt/HackTX-2018.git"
+  },
+  "author": "Arrays Start At One",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/killerdirt/HackTX-2018/issues"
+  },
+  "homepage": "https://github.com/killerdirt/HackTX-2018#readme",
+  "keywords": []
+}
